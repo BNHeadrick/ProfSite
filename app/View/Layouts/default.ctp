@@ -38,16 +38,28 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 </head>
 <body>
 	<div id="container">
+		container
 		<div id="header">
+			header
+			Brandon Headrick
 		</div>
 
 		<div id="content">
-			<div id="menu-box">
-				menu items go here!
+
+			<div id="menu_box">
+				<ul>
+					<li>About</li>
+					<li>Blog</li>
+					<li>Code Repos</li>
+					<li>Resume</li>
+					<li>Contact</li>
+				</ul>
+				menu-box div (will have about me(is musician, coder, education, things), blog, link to code I've worked on [git, gcode], resume (with publications))
 		  	</div>
-			<div id="content-box">
-				<?php echo $this->Session->flash(); ?>
-				<?php echo $content_for_layout; ?>
+			<div id="content_box">
+				<?php //echo $this->Session->flash(); ?>
+				<?php //echo $content_for_layout; ?>
+				content-box div
 			</div>
 		</div>
 	</div>
