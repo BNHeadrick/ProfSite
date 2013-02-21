@@ -21,6 +21,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<!--
+	<script type='text/javascript' src='ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+	<script type='text/javascript' src='ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+-->
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -31,10 +35,31 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 		echo $this->Html->css('cake.generic');
 
+		echo $this->Html->script('jquery-1.9.1.min');
+
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+
+	<script type='text/javascript'>
+		alert("hi");
+		jQuery(document).ready(function()
+		{
+			alert("hai");
+			//setTimeout('move_up()', 1);
+			jQuery("#menu_box li").hover(
+			  function () {
+				jQuery(this).animate({"margin-right": "10px"}, "fast");
+			  }, 
+			  function () {
+				jQuery(this).animate({"margin-right": "0px"}, "fast");
+			  }
+			);
+		});
+
+	</script>
+
 </head>
 <body>
 	<div id="container">
