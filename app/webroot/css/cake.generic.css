@@ -22,18 +22,72 @@
 }
 
 /** General Style Info **/
+/*
+@font-face{
+	font-family:myFont;
+	src: url('myFont.tff');
+}
+
+@font-face{
+	font-family: myFontIE;
+	src: url('myFont.eot');
+}
+*/
+
+@font-face {
+ font-family: neouThin;
+ src: url("Neou-Thin.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: neouThin;
+ src: url("Neou-Thin.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: neouBold;
+ src: url("Neou-Bold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: neouBold;
+ src: url("Neou-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: walkSemi;
+ src: url("Walkway-SemiBold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: walkSemi;
+ src: url("Walkway-SemiBold.ttf") /* TTF file for CSS3 browsers */
+}
+
 
 #menu_box {
-	/*position: fixed; */
+	/*position: fixed;*/
 	float:left;
-	height: 100%;
+	text-align: right;
+	/*height: 100%;*/
 	width:210px;
 	background-color: cyan;
+	background-color: white;
+	font-family:neouThin, Verdana, sans-serif;
+	list-style-type: none;
+
+}
+
+#menu_box ul{
+	list-style-type: none;
+}
+
+#menu_box ul li a {
+	text-decoration: none;
+	font-size:1.5em;
 }
 
 #content{
 	/*background: #fff;*/
 	background-color: red;
+	background-color: white;
 	clear: both;
 	color: #333;
 	padding: 10px 20px 40px 20px;
@@ -43,16 +97,32 @@
 #content_box{
 	/*float:right;*/
 	background-color: green;
+	background-color: white;
+	font-family:neouThin, Verdana, sans-serif;
+
 }
 
 #container {
 	text-align: left;
 	background-color: blue;
+	color: black;
+	background-color: white;
+	font-family:walkSemi, Verdana, sans-serif;
 }
 
 #header{
-	padding: 10px 20px;
+	padding: 20px 0px 20px 50px;
+	color: #123456;
+	font-size: 1.9em;
 }
+
+#header a, #header a:hover{
+	text-decoration: none;
+	color: #123456;
+}
+
+
+
 #header h1 {
 	line-height:20px;
 	background: #003d4c url('../img/cake.icon.png') no-repeat left;
