@@ -35,6 +35,8 @@
 *	go to static pages
 */
 	Router::connect('/about', array('controller' => 'pages', 'action' => 'display', 'about'));
+	Router::connect('/repos', array('controller' => 'pages', 'action' => 'display', 'repos'));
+	Router::connect('/resume', array('controller' => 'pages', 'action' => 'display', 'resume'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on

@@ -58,23 +58,26 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 </head>
 <body>
 	
-	<div id="container">default.ctp
+	<div id="container">
 		
 		<div id="header">
-			<a href=""> Brandon Headrick</a>
+			<a href=""> BRANDON HEADRICK</a>
 		</div>
 
 		<div id="outer">
 
 			<div id="menu_box">
 				<ul class="menu_list">
-					<li><a href="">About</a></li>
-					<li><a href="">Blog</a></li>
-					<li><a href="">Code Repos</a></li>
-					<li><a href="">Resume</a></li>
-					<li><a href="">Contact</a></li>
+					<!--obviously fix the URLs later-->
+					<li><a href="http://localhost/ProfSite/about">About</a></li>
+					<li><a href="http://localhost/ProfSite/blog">Blog</a></li>
+					<li><a href="http://localhost/ProfSite/repos">Code Repos</a></li>
+					<li><a href="http://localhost/ProfSite/resume">Resume</a></li>
+					<li><a href="http://localhost/ProfSite/contact">Contact</a></li>
 				</ul>
+				<!--
 				menu-box div (will have about me(is musician, coder, education, things), blog, link to code I've worked on [git, gcode], resume (with publications))
+				-->
 		  	</div>
 			<div id="main_box">
 
