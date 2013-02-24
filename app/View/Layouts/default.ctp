@@ -1,3 +1,4 @@
+
 <?php
 /**
  *
@@ -21,10 +22,6 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<!--
-	<script type='text/javascript' src='ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-	<script type='text/javascript' src='ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
--->
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -41,12 +38,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
-
+	
 	<script type='text/javascript'>
-		alert("hi");
 		jQuery(document).ready(function()
 		{
-			alert("hai");
 			//setTimeout('move_up()', 1);
 			jQuery("#menu_box li").hover(
 			  function () {
@@ -59,36 +54,39 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		});
 
 	</script>
-
+	
 </head>
 <body>
-	<div id="container">
+	
+	<div id="container">default.ctp
 		
 		<div id="header">
-			<a href="www.brandonheadrick.com"> Brandon Headrick</a>
+			<a href=""> Brandon Headrick</a>
 		</div>
 
-		<div id="content">
+		<div id="outer">
 
 			<div id="menu_box">
 				<ul class="menu_list">
-					<li><a href="www.brandonheadrick.com">About</a></li>
-					<li><a href="www.brandonheadrick.com">Blog</a></li>
-					<li><a href="www.brandonheadrick.com">Code Repos</a></li>
-					<li><a href="www.brandonheadrick.com">Resume</a></li>
-					<li><a href="www.brandonheadrick.com">Contact</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Code Repos</a></li>
+					<li><a href="">Resume</a></li>
+					<li><a href="">Contact</a></li>
 				</ul>
 				menu-box div (will have about me(is musician, coder, education, things), blog, link to code I've worked on [git, gcode], resume (with publications))
 		  	</div>
-			<div id="content_box">
-				<!--
-				<?php //echo $this->Session->flash(); ?>
-				<?php //echo $content_for_layout; ?>
-				-->
-				content-box div
+			<div id="main_box">
+
+				
+				<!-- Here's where I want my views to be displayed -->
+				<?php echo $this->fetch('content'); ?>
 			</div>
 		</div>
+		
 	</div>
+	
 	<?php echo $this->element('sql_dump'); ?>
+	
 </body>
 </html>

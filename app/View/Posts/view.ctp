@@ -28,3 +28,5 @@ echo $this->Html->link('edit', array(
 // The remaining content will be available as the 'content' block
 // in the parent view.
 <?php echo h($post['Post']['body']);
+
+?>

@@ -84,7 +84,7 @@
 	font-size:1.5em;
 }
 
-#content{
+#outer{
 	/*background: #fff;*/
 	background-color: red;
 	background-color: white;
@@ -94,11 +94,16 @@
 	overflow: auto;
 }
 
-#content_box{
+#main_box{
 	/*float:right;*/
+	/*float: auto;*/
 	background-color: green;
 	background-color: white;
 	font-family:neouThin, Verdana, sans-serif;
+	
+	/*padding: 20px;*/
+	margin-left: 25%;
+	
 
 }
 
