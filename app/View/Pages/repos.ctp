@@ -1,6 +1,6 @@
 
 
-https://github.com/Hozuko
+<a href="https://github.com/Hozuko">GitHub</a>
 
 <br/><br/>
-https://code.google.com/u/108903650649881242632/
+<a href="https://code.google.com/u/108903650649881242632/">Google Code</a>

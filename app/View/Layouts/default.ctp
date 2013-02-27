@@ -61,7 +61,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<div id="container">
 		
 		<div id="header">
-			<a href=""> BRANDON HEADRICK</a>
+			<a href="/ProfSite/about"> BRANDON HEADRICK</a>
 		</div>
 
 		<div id="outer">

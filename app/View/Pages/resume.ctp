@@ -36,12 +36,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	</ul>
 </div>
 -->
-
+<!--
 <div id="res_obj" class="res_topics">
 <h1>Objective</h1>
 	To use my skills in computer technology to help people and gain valuable work experience in the field of mobile app development.  Interested in a full time or paid internship position for February of 2013.
 </div>
-
+-->
 <div id="res_edu" class="res_topics">
 	<h1>Education</h1>
 	<strong>Georgia Institute of Technology</strong><br/>
