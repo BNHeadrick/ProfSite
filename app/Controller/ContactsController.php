@@ -1,6 +1,6 @@
 <?php
 
-class ContactsController extends Controller {
+class ContactsController extends AppController {
  
     var $components = array('Email');
  
