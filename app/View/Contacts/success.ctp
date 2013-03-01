@@ -1,4 +1,4 @@
 <?php
 echo $this->Session->flash();
 ?>
-<p>Thank you, we'll get back to you shortly.</p>
+<p>Thanks!  I'll get back to you as soon as possible.</p>

@@ -69,11 +69,11 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<div id="menu_box">
 				<ul class="menu_list">
 					<!--obviously fix the URLs later-->
-					<li><a href="http://localhost/ProfSite/about">About</a></li>
-					<li><a href="http://localhost/ProfSite/blog">Blog</a></li>
-					<li><a href="http://localhost/ProfSite/repos">Code Repos</a></li>
-					<li><a href="http://localhost/ProfSite/resume">Resume</a></li>
-					<li><a href="http://localhost/ProfSite/contact">Contact</a></li>
+					<li><a href="/ProfSite/about">About</a></li>
+					<li><a href="/ProfSite/posts">Blog</a></li>
+					<li><a href="/ProfSite/repos">Code Repos</a></li>
+					<li><a href="/ProfSite/resume">Resume</a></li>
+					<li><a href="/ProfSite/contacts">Contact</a></li>
 				</ul>
 				<!--
 				menu-box div (will have about me(is musician, coder, education, things), blog, link to code I've worked on [git, gcode], resume (with publications))
