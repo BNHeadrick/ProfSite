@@ -61,6 +61,24 @@
  src: url("Walkway-SemiBold.ttf") /* TTF file for CSS3 browsers */
 }
 
+@font-face {
+ font-family: latoReg;
+ src: url("Lato-Reg.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: latoReg;
+ src: url("Lato-Reg.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: latoBold;
+ src: url("Lato-Bol.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: latoBold;
+ src: url("Lato-Bol.ttf") /* TTF file for CSS3 browsers */
+}
+
+
 
 #menu_box {
 	/*position: fixed;*/
@@ -68,8 +86,10 @@
 	text-align: right;
 	/*height: 100%;*/
 	width:210px;
+	/*
 	background-color: cyan;
 	background-color: white;
+	*/
 	font-family:neouThin, Verdana, sans-serif;
 	list-style-type: none;
 
@@ -86,32 +106,39 @@
 
 #outer{
 	/*background: #fff;*/
+	/*
 	background-color: red;
 	background-color: white;
+	*/
 	clear: both;
 	color: #333;
 	padding: 10px 20px 40px 20px;
 	overflow: auto;
+
 }
 
 #main_box{
 	/*float:right;*/
 	/*float: auto;*/
-	background-color: green;
-	background-color: white;
-	font-family:neouThin, Verdana, sans-serif;
+	/*background-color: green;*/
+	/*background-color: white;*/
+	font-family:latoBold, Verdana, sans-serif;
 	
 	/*padding: 20px;*/
-	margin-left: 25%;
+	margin-left: 22%;
+	overflow:auto;
 	
 
 }
 
 #container {
 	text-align: left;
+	/*
 	background-color: blue;
-	color: black;
 	background-color: white;
+	*/
+	color: black;
+	
 	font-family:walkSemi, Verdana, sans-serif;
 }
 
@@ -148,7 +175,12 @@
 
 body {
 	/*background: #003d4c; */
-	background-color: white;
+	/*background-color: white;*/
+
+	background-image:url('debut_light.png');
+	/*background-image:url('grey_wash_wall');*/
+	background-repeat:repeat;
+
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -199,7 +231,9 @@ p {
 
 /** Layout **/
 
-
+#contact_form{
+	border:none;
+}
 
 
 #footer {

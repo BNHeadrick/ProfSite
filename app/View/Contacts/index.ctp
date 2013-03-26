@@ -1,6 +1,6 @@
-<p>Thank you for your interest in our company. Leave a message.</p>
+<p></p>
 <?php echo $this->Form->create('Contact', array('action' => 'send')); ?>
-<table style="border:none;">
+<table id="contact_form">
     <tr>
         <td>Name</td>
         <td><?php echo $this->Form->input('Contact.name', array('label' => false, 'maxlength' => 100, 'size' => 40)); ?></td>

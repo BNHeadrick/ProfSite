@@ -27,7 +27,7 @@ class ContactsController extends AppController {
     }
  
     function index() {
-        // Placeholder for index. No actual action here, everything is submitted to the send function.
+        //verything is submitted to the send function, so this is just a placeholder
     }
  
 }
